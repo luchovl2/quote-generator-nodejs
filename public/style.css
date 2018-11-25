@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Teko');
+
+
+@media only screen and (min-width: 900px){
+  body{
+    font-size: 2em;
+  }
+}
+/*************************
+Vairables
+******************************/
+:root{
+  --color1: hsl(10, 80%, 80%);
+  --color2: rgba(220,0,0,0.86);
+  
+  --fonts: "Teko", Arial, sans-serif;
+}
+
+/*****************
+Reset
+****************/
+html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+/*****************
+Base
+****************/
+body{
+  font-family: var(--fonts);
+  font-size: 18px;
+  letter-spacing: 1px;
+  background-color: var(--color1);
+}
+
+a{
+  font-size: inherit;
+}
+
+/*****************
+Layout
+****************/
+.container{
+  box-shadow: 2px 2px 5px 3px;
+  min-width: 300px;
+}
+
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*****************
+Modules
+****************/
+.footer{
+  text-align: center;
+  margin-top: 5px;  
+}
+
+.rounded-border{
+  border-radius: 5px;
+}
+
+.btn{
+  background-color: grey;
+  border-radius: 5px;
+  color: #fff;
+  border: 0;
+  padding: 5px;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: var(--fonts);
+  letter-spacing: inherit;
+}
+
+.btn:hover{
+  background-color: black;
+}
+
+.mr-1{
+  margin-right: 5px;
+}
+
+.ml-1{
+  margin-left: 5px;
+}
+/*****************
+Theme
+****************/
+.bg-primary{
+  
+}
+
+.bg-secondary{
+  background-color: hsl(370, 70%, 30%);
+}
+
+#quote-box{
+  background-color: var(--color2);
+  width: 60vw;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#text{
+  font-size: 30px;
+  color: white;
+}
+
+@media only screen and (min-width: 900px){
+  #text{
+    font-size: 50px;
+  }
+}
+
+#author{
+  font-size: 20px;
+  color: white;
+  position: relative;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quote generator</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <div id="app">
+        <div id="quote-box" class="container rounded-border">
+
+            <blockquote id="text" class="">
+                <sup><i class="fas fa-quote-left mr-1"></i></sup>
+                <span id="quote">Placeholder quote</span>
+                <sup><i class="fas fa-quote-right ml-1"></i></sup>
+            </blockquote>
+
+            <p id="author" class="bg-secondary">Placeholder author</p>
+
+            <button id="new-quote" class="btn mr-1" onClick="handleClick()">New quote</button>
+            <a id="tweet-quote" class="btn" href="#" onClick="handleTweet()">Tweet quote</a>
+        </div>
+    </div>
+    <footer class="footer">by Luciano Gabbanelli</footer>
+</body>
+<script src="quote.js"></script>
+</html>

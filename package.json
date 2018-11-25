@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "",
+  "version": "",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.81.0",
+    "sqlite3": "^4.0.4"
+  }
+}
